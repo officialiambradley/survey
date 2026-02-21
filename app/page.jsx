@@ -1,9 +1,9 @@
-import Image from "next/image";
+import { SurveyCard } from "./ui";
 
 export default function Home() {
   return (
     <div>
-      test
+      <SurveyCard></SurveyCard>
     </div>
   );
 }
